@@ -78,6 +78,8 @@ jobs:
             docker pull bwuk07/back:latest || true
             docker rm -f back 2>/dev/null || true
             docker run -d --name back -p 8080:8080 --pull=always bwuk07/back:latest
+            
+            
 
 
 
