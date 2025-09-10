@@ -16,7 +16,7 @@ jobs:
           port: 128
           script: |
             rm -rf ./demo30
-            git clone https://github.com/kbw07/testtestst.git/demo30
+            git clone https://github.com/kbw07/testtestst.git
             cd ./demo30
             chmod 755 ./gradlew
             ./gradlew bootJar
