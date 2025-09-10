@@ -15,7 +15,7 @@ jobs:
           password: qwer1234
           port: 128
           script: |
-            rm -rf ./demo30
+            rm -rf ./testtestst
             git clone https://github.com/kbw07/testtestst.git
             cd ./demo30
             chmod 755 ./gradlew
