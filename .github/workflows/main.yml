@@ -17,7 +17,7 @@ jobs:
           script: |
             rm -rf ./testtestst
             git clone https://github.com/kbw07/testtestst.git
-            cd ./demo30
+            cd ./testtestst
             chmod 755 ./gradlew
             ./gradlew bootJar
             docker rm -f back
