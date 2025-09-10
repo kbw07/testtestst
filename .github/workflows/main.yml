@@ -13,10 +13,10 @@ jobs:
           host: 183.101.189.204
           username: test
           password: qwer1234
-          port: 22
+          port: 128
           script: |
             rm -rf ./demo30
-            git clone https://github.com/ddarahakit2025/demo30
+            git clone https://github.com/kbw07/testtestst.git/demo30
             cd ./demo30
             chmod 755 ./gradlew
             ./gradlew bootJar
